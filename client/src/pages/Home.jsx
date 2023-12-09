@@ -6,17 +6,17 @@ import Section3 from '../components/UI/Section3'
 import Section4 from '../components/UI/Section4'
 import Testimonials from '../components/UI/Testimonials'
 import Cta from '../components/UI/Cta'
-
+import Howto from '../components/UI/Howto'
 
 const Home = () => {
   return (
     <>
       <Hero />
-
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
+      <Howto />
       <Testimonials />
       <Cta />
     </>

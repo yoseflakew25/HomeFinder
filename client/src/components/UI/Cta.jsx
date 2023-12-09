@@ -2,7 +2,7 @@ import React from 'react'
 
 const cta = () => {
   return (
-    <div className="py-16 bg-gradient-to-br from-[#0d9488] to-primary md:bg-gradient-to-r">
+    <div className="py-16 bg-gradient-to-br from-[#581c87] to-primary md:bg-gradient-to-r">
       <div className="container px-6 m-auto text-center md:px-12 lg:px-20">
         <h2 className="mb-8 text-4xl font-bold text-white md:text-4xl">
           Sign to your account to get the full experiance

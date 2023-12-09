@@ -1,28 +1,28 @@
 import { FaSearch } from "react-icons/fa";
 import { NavLink, useNavigate } from "react-router-dom";
-import logo from "../assets/logo.jpg";
-// import { useSelector } from "react-redux";
+import logo from "../assets/logo.png";
+import { useSelector } from "react-redux";
  import { useEffect, useState } from "react";
 
 export default function Header() {
-  // const { currentUser } = useSelector((state) => state.user);
-  // const [searchTerm, setSearchTerm] = useState("");
-  // const navigate = useNavigate();
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const urlParams = new URLSearchParams(window.location.search);
-  //   urlParams.set("searchTerm", searchTerm);
-  //   const searchQuery = urlParams.toString();
-  //   navigate(`/search?${searchQuery}`);
-  // };
+  const { currentUser } = useSelector((state) => state.user);
+  const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const urlParams = new URLSearchParams(window.location.search);
+    urlParams.set("searchTerm", searchTerm);
+    const searchQuery = urlParams.toString();
+    navigate(`/search?${searchQuery}`);
+  };
 
-  // useEffect(() => {
-  //   const urlParams = new URLSearchParams(location.search);
-  //   const searchTermFromUrl = urlParams.get("searchTerm");
-  //   if (searchTermFromUrl) {
-  //     setSearchTerm(searchTermFromUrl);
-  //   }
-  // }, [location.search]);
+  useEffect(() => {
+    const urlParams = new URLSearchParams(location.search);
+    const searchTermFromUrl = urlParams.get("searchTerm");
+    if (searchTermFromUrl) {
+      setSearchTerm(searchTermFromUrl);
+    }
+  }, [location.search]);
 
    const [isScrolled, setIsScrolled] = useState(false);
    const handleScroll = () => {
@@ -41,7 +41,9 @@ export default function Header() {
     <header
       aria-label="Site Header"
       className={`sticky top-0 z-50 bg-[#F9FAFB] ${
-        isScrolled ? "bg-opacity-70 backdrop-filter backdrop-blur-lg shadow-sm" : ""
+        isScrolled
+          ? "bg-opacity-70 backdrop-filter backdrop-blur-lg shadow-sm"
+          : ""
       }`}
     >
       <div className="flex items-center justify-between h-20 max-w-screen-xl mx-16">
@@ -50,12 +52,13 @@ export default function Header() {
             <img className="h-10" src={logo} alt="" />
           </NavLink>
 
-          <form className="mb-0 lg:flex">
+          <form className="mb-0 lg:flex" onSubmit={handleSubmit}>
             <div className="relative">
               <input
                 className="h-10 pl-4 pr-16 text-sm border rounded-lg border-neutral placeholder-neutral focus:z-10"
-                placeholder="Search..."
+                placeholder="Search for homes"
                 type="text"
+                onChange={(e) => setSearchTerm(e.target.value)}
               />
 
               <button
@@ -73,20 +76,20 @@ export default function Header() {
           aria-label="Site Nav"
           className="items-center justify-center hidden gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
         >
-          <NavLink
+          {/* <NavLink
             exact
             to="/"
             className="text-gray-900 hover:text-primary"
             activeClassName="text-primary"
           >
             Home
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/search"
             className="text-gray-900 hover:text-primary"
             activeClassName="text-primary"
           >
-            Cars
+            Home Listings
           </NavLink>
           <NavLink
             to="/about"
@@ -105,31 +108,48 @@ export default function Header() {
         </nav>
 
         <div className="items-center hidden gap-4 lg:flex">
-          <NavLink
-            to="/"
+          <NavLink to="/profile">
+            {currentUser ? (
+              <img
+                className="rounded-full h-7 w-7 object-cover"
+                src={currentUser.avatar}
+                alt="profile"
+              />
+            ) : (
+              <button className="px-5 py-2 text-sm font-medium rounded-lg text-white bg-primary hover:bg-gray-800">
+                {" "}
+                Sign in
+              </button>
+            )}
+          </NavLink>
+          {/* <NavLink
+            to="/sign-in"
             className="px-5 py-2 text-sm font-medium rounded-lg text-white bg-primary hover:bg-gray-800"
           >
+            {currentUser ? (
+              <img src={currentUser.avatar} alt="profile" />
+            )}
             Sign in
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
 
       <div className="border-t border-gray-100 lg:hidden">
         <nav className="flex items-center justify-center p-4 overflow-x-auto text-sm font-medium gap-8">
-          <NavLink
+          {/* <NavLink
             exact
             to="/"
             className="text-gray-900 hover:text-primary"
             activeClassName="text-primary"
           >
             Home
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to="/search"
             className="text-gray-900 hover:text-primary"
             activeClassName="text-primary"
           >
-            Cars
+            Homes
           </NavLink>
           <NavLink
             to="/about"

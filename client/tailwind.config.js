@@ -8,7 +8,7 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#14B8A6",
+          primary: "#9333EA",
 
           secondary: "#000807",
 
@@ -25,7 +25,7 @@ export default {
           warning: "#FFA41B",
 
           error: "#F87272",
-          white: "#ffffff"
+          white: "#ffffff",
         },
       },
     ],

@@ -1,5 +1,5 @@
 import React from 'react'
-import temp from "../../assets/2.webp";
+import temp from "../../assets/section2.jpg";
 const Section3 = () => {
   return (
     <div className="py-16 -mt-16">
@@ -26,6 +26,7 @@ const Section3 = () => {
               loading="lazy"
               width=""
               height=""
+              className="rounded-2xl hover:-translate-y-12 transition-all ease-in-out duration-500" 
             />
           </div>
         </div>

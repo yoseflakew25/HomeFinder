@@ -51,7 +51,6 @@ export default function Listing() {
   }, [params.listingId]);
 
   return (
-    
     <main>
       {loading && <p className='text-center my-7 text-2xl'>Loading...</p>}
       {error && (
@@ -59,7 +58,8 @@ export default function Listing() {
       )}
       {listing && !loading && !error && (
         <div>
-          <Swiper navigation className='w-10/12 rounded-lg mt-8'>
+          
+          <Swiper navigation>
             {listing.imageUrls.map((url) => (
               <SwiperSlide key={url}>
                 <div
@@ -72,6 +72,8 @@ export default function Listing() {
               </SwiperSlide>
             ))}
           </Swiper>
+
+
           <div className='fixed top-[13%] right-[3%] z-10 border rounded-full w-12 h-12 flex justify-center items-center bg-slate-100 cursor-pointer'>
             <FaShare
               className='text-slate-500'
