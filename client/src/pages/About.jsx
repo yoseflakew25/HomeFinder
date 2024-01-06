@@ -1,6 +1,8 @@
 import React from 'react'
-import tempPic from '../assets/2.webp'
+import tempPic from '../assets/section1.jpg'
 import mePic from "../assets/mepic.jpg";
+import { Link } from 'react-router-dom';
+
 export default function About() {
   return (
     <>
@@ -8,7 +10,8 @@ export default function About() {
         <div className="lg:bg-gray-50 lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
           <div className="mx-8 md:7/12 lg:w-1/2">
             <h2 className="text-3xl font-bold text-gray-900 md:text-4xl ">
-              Nuxt development is carried out by passionate developers
+            ቪላ,አፓርትመንት , ገስት ሀውስ , ኮንዶሚኒየም , ጂ+ , ለሱቅ/ለቢሮ
+ሁሉም እኛ ጋር አለ::
             </h2>
             <p className="my-8 text-gray-600">
               Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
@@ -16,9 +19,9 @@ export default function About() {
               aspernatur quam mollitia.
             </p>
 
-            <button className="self-center w-auto px-8 mr-16 border-0 text-white text-lg btn hover:bg-secondary bg-primary hover:text-white">
-              Browse Now
-            </button>
+            <Link to="/search" className="self-center w-auto px-8 mr-16 border-0 text-white text-lg btn hover:bg-secondary bg-primary hover:text-white">
+              Get started
+            </Link>
           </div>
           <div className="md:5/12 lg:w-1/2">
             <img src={tempPic} alt="image" loading="lazy" width="" height="" />
@@ -609,14 +612,15 @@ export default function About() {
               </p>
               <div className="items-center hidden gap-4 lg:flex">
                 <a
-                  href="#"
+                  href="https://portifoliov1-three.vercel.app/"
                   className="px-5 py-2 text-md font-medium text-gray-600 bg-[#F0FDFA] rounded-lg"
                 >
                   Portfolio
                 </a>
 
                 <a
-                  href="#"
+                  href="https://github.com/yoseflakew25"
+                  target='_blank'
                   className="px-5 py-2 text-md font-medium rounded-lg text-white bg-primary hover:bg-gray-800"
                 >
                  Github
