@@ -10,7 +10,11 @@ Welcome to HomeFinder, a comprehensive website where you can list and find a var
 - **Responsive Design:** The website is fully responsive, ensuring a seamless experience across different devices and screen sizes.
 - **Advanced Search Functionality:** Visualize property locations on an interactive map for easier navigation and exploration.
 - **Share Listings:** Allow users to share their favorite searches to another users.
-  
+
+## Screenshots
+
+
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/yoseflakew25/HomeFinder.git`
@@ -43,7 +47,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or suggestions regarding HomeFinder, please feel free to reach out to us:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [jolarohe@gmail.com](mailto:jolarohe@gmail.com)
 - GitHub: [yoseflakew25](https://github.com/yoseflakew25)
 
 We appreciate your interest and support in HomeFinder!
