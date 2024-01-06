@@ -13,15 +13,13 @@ Welcome to HomeFinder, a comprehensive website where you can list and find a var
 
 ## Screenshots
 
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/1.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/2.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/3.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/4.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/5.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/6.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/7.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/8.png)
-![screenshot1](https://github.com/yoseflakew25/notion-clone/blob/main/public/9.png)
+![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/1.png)
+![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/2.png)
+![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/3.png)
+![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/4.png)
+![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/5.png)
+![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/6.png)
+
 
 ## Installation
 
