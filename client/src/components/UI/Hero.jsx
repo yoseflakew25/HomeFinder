@@ -41,7 +41,7 @@ const Hero = () => {
             loading="lazy"
             width=""
             height=""
-            className="rounded-3xl animate-pulse animate-[pulse_15s_ease-in-out_infinite]"
+            className="rounded-3xl hover:-translate-y-12 transition-all ease-in-out duration-500"
           />
         </div>
       </div>
