@@ -8,9 +8,9 @@ Welcome to HomeFinder, a comprehensive website where you can list and find a var
 - **Search and Filters:** Utilize powerful search and filtering options to find homes based on criteria such as location, rent/buy, property type, and more.
 - **User Authentication:** Secure user authentication system allowing property owners to manage their listings and users to save favorites and preferences.
 - **Responsive Design:** The website is fully responsive, ensuring a seamless experience across different devices and screen sizes.
-- **Interactive Map:** Visualize property locations on an interactive map for easier navigation and exploration.
-- **Saved Searches:** Allow users to save their favorite searches and receive notifications when new listings matching their criteria become available.
-
+- **Advanced Search Functionality:** Visualize property locations on an interactive map for easier navigation and exploration.
+- **Share Listings:** Allow users to share their favorite searches to another users.
+  
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/yoseflakew25/HomeFinder.git`
