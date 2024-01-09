@@ -40,9 +40,9 @@ export default function Header() {
   return (
     <header
       aria-label="Site Header"
-      className={`sticky top-0 z-50 bg-[#F9FAFB] ${
+      className={`sticky top-0 z-50  ${
         isScrolled
-          ? "bg-opacity-70 backdrop-filter backdrop-blur-lg shadow-sm"
+          ? "bg-opacity-70 backdrop-filter backdrop-blur-lg shadow-sm bg-[#F9FAFB]"
           : ""
       }`}
     >
