@@ -1,5 +1,5 @@
 import React from 'react'
-import tempPic from '../assets/section1.jpg'
+import tempPic from '../assets/hero.jpg'
 import mePic from "../assets/mepic.jpg";
 import { Link } from 'react-router-dom';
 
