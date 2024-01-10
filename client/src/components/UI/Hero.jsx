@@ -6,8 +6,9 @@ const ShuffleHero = () => {
   return (
     <section className="w-full px-8 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-16 max-w-7xl mx-auto">
      <div>
-        <h2 className="mb-4 text-3xl font-bold text-secondary sm:text-4xl md:text-[42px]">
-        የሚሸጥ እና የሚከራይ ቤት ይፈልጋሉ?
+        <h2 className="mb-4 text-3xl font-bold text-[#009688] sm:text-4xl md:text-[48px]">
+
+        ለመኖሪያ ፣ ለንግድ ወይም ለቢሮ የሚሸጥ እና የሚከራይ ቤት ይፈልጋሉ?
               </h2>
           <p className="my-8 text-gray-600">
             Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
@@ -18,7 +19,7 @@ const ShuffleHero = () => {
           <Link to='/search' className="self-center w-auto px-8 mr-4 border-0 text-white text-lg btn hover:bg-secondary bg-primary hover:text-white">
             Get started
           </Link>
-          <Link to='/about' className="self-center w-auto px-8 font-semibold tmr-16 text-[#9333EA] hover:text-secondary">
+          <Link to='/about' className="self-center w-auto px-8 font-semibold tmr-16 text-primary hover:text-secondary">
            About
           </Link>
         </div>
