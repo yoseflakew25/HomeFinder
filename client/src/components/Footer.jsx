@@ -1,8 +1,17 @@
 import React from 'react'
 // import footerlogo from '../assets/footerlogo.jpg'
 import logo from "../assets/logo.png";
-
+import { useLocation  } from 'react-router-dom';
 const Footer = () => {
+
+  const location = useLocation();
+  const { pathname } = location;
+
+  const isSearchRoute = pathname === '/search';
+
+  if (isSearchRoute) {
+    return null; // Do not render Footer on the /search route
+  }
   return (
     <footer className="bg-gray-100">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
