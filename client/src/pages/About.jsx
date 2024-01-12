@@ -9,7 +9,7 @@ export default function About() {
       <section id="about" className="bg-[#F9FAFB] p-16">
         <div className="lg:bg-gray-50 lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
           <div className="mx-8 md:7/12 lg:w-1/2">
-            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl ">
+            <h2 className="text-3xl font-bold text-[#009688] md:text-4xl ">
             ቪላ,አፓርትመንት , ገስት ሀውስ , ኮንዶሚኒየም , ጂ+ , ለሱቅ/ለቢሮ
 ሁሉም እኛ ጋር አለ::
             </h2>
@@ -36,30 +36,9 @@ export default function About() {
               Make history
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#009688] sm:text-4xl md:mx-auto">
             <span className="relative inline-block mr-2">
-              <svg
-                viewBox="0 0 52 24"
-                fill="#14B8A6"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-              >
-                <defs>
-                  <pattern
-                    id="84d09fa9-a544-44bd-88b2-08fdf4cddd38"
-                    x="0"
-                    y="0"
-                    width=".135"
-                    height=".30"
-                  >
-                    <circle cx="1" cy="1" r=".7"></circle>
-                  </pattern>
-                </defs>
-                <rect
-                  fill="url(#84d09fa9-a544-44bd-88b2-08fdf4cddd38)"
-                  width="52"
-                  height="24"
-                ></rect>
-              </svg>
+         
               <span className="relative">How</span>
             </span>
             To use our website
@@ -133,30 +112,9 @@ export default function About() {
                 About
               </p>
             </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#009688] sm:text-4xl md:mx-auto">
               <span className="relative inline-block mr-2">
-                <svg
-                  viewBox="0 0 52 24"
-                  fill="currentColor"
-                  className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-                >
-                  <defs>
-                    <pattern
-                      id="84d09fa9-a544-44bd-88b2-08fdf4cddd38"
-                      x="0"
-                      y="0"
-                      width=".135"
-                      height=".30"
-                    >
-                      <circle cx="1" cy="1" r=".7"></circle>
-                    </pattern>
-                  </defs>
-                  <rect
-                    fill="url(#84d09fa9-a544-44bd-88b2-08fdf4cddd38)"
-                    width="52"
-                    height="24"
-                  ></rect>
-                </svg>
+  
                 <span className="relative">Meet</span>
               </span>
               The developer

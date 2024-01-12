@@ -10,7 +10,7 @@ const Section1 = () => {
               <span className="block mb-2 text-lg font-semibold text-primary">
                 Features
               </span>
-              <h2 className="mb-4 text-3xl font-bold text-secondary sm:text-4xl md:text-[42px]">
+              <h2 className="mb-4 text-3xl font-bold text-[#009688] sm:text-4xl md:text-[42px]">
                 Main Features Of Play
               </h2>
               <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">

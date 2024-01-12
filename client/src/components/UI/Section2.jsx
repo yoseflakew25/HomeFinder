@@ -16,7 +16,7 @@ const Section2 = () => {
             />
           </div>
           <div className="mx-8 md:7/12 lg:w-1/2">
-            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl ">
+            <h2 className="text-3xl font-bold text-[#009688] md:text-4xl ">
               Nuxt development is carried out by passionate developers
             </h2>
             <p className="my-8 text-gray-600">

@@ -6,10 +6,9 @@ const ShuffleHero = () => {
   return (
     <section className="w-full px-8 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-16 max-w-7xl mx-auto">
      <div>
-        <h2 className="mb-4 text-3xl font-bold text-[#009688] sm:text-4xl md:text-[48px]">
-
-        ለመኖሪያ ፣ ለንግድ ወይም ለቢሮ የሚሸጥ እና የሚከራይ ቤት ይፈልጋሉ?
-              </h2>
+     <h2 className="mb-4 text-3xl font-bold text-[#009688] sm:text-4xl md:text-[48px]" style={{ lineHeight: '1' }}>
+  ለመኖሪያ ፣ ለንግድ ወይም ለቢሮ <br /> የሚሸጥ እና የሚከራይ ቤት ይፈልጋሉ?
+</h2>
           <p className="my-8 text-gray-600">
             Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
             expedita at? Asperiores nemo possimus nesciunt dicta veniam
