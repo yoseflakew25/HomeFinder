@@ -47,10 +47,15 @@ export default function Header() {
       }`}
     >
       <div className="flex items-center justify-between h-20 max-w-screen-xl mx-16">
-        <div className="flex items-center gap-4">
-          <NavLink to="/">
+        <div className="flex items-center gap-16">
+          
+
+          <NavLink to="/" className="flex gap-2 items-center">
             <img className="h-10" src={logo} alt="" />
+            <h1 className="text-primary font-bold text-3xl">HomeFinder</h1>
           </NavLink>
+        
+         
 
           <form className="mb-0 lg:flex" onSubmit={handleSubmit}>
             <div className="relative">

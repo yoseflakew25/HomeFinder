@@ -1,5 +1,6 @@
 import React from 'react'
 import temp from '../../assets/section1.jpg'
+import { Link } from 'react-router-dom';
 const Section2 = () => {
   return (
     <div className="py-16 -mt-16">
@@ -17,17 +18,17 @@ const Section2 = () => {
           </div>
           <div className="mx-8 md:7/12 lg:w-1/2">
             <h2 className="text-3xl font-bold text-[#009688] md:text-4xl ">
-              Nuxt development is carried out by passionate developers
+            For Sellers or Landlords:
             </h2>
             <p className="my-8 text-gray-600">
-              Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-              expedita at? Asperiores nemo possimus nesciunt dicta veniam
-              aspernatur quam mollitia.
+            Our company is dedicated to helping landlords and property developers to rent and sell out their properties. If you want to save time and money, while expanding, you might want to be interested in our professional services.
+ 
+ Our company could be your ideal partner for renting or selling your property. We are committed to our customers and promoters and our main objective is to be transparent while achieving results.
             </p>
 
-            <button className="self-center w-auto px-8 mr-16 border-0  text-lg btn hover:bg-secondary bg-primary text-white font-medium">
-              Browse Now
-            </button>
+            <Link to='/search' className="self-center w-auto px-8 mr-4 border-0 text-white text-lg btn hover:bg-secondary bg-primary hover:text-white">
+            Get started
+          </Link>
           </div>
         </div>
       </div>

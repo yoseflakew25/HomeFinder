@@ -1,5 +1,6 @@
 import React from 'react'
-import temp from "../../assets/section2.jpg";
+import temp from "../../assets/section2.png"
+import { Link } from 'react-router-dom';
 const Section3 = () => {
   return (
     <div className="py-16 -mt-16">
@@ -7,17 +8,15 @@ const Section3 = () => {
         <div className="lg:bg-gray-50 lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
           <div className="mx-8 md:7/12 lg:w-1/2">
             <h2 className="text-3xl font-bold text-[#009688] md:text-4xl ">
-              Nuxt development is carried out by passionate developers
+            For Tenants or buyers:
             </h2>
             <p className="my-8 text-gray-600">
-              Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-              expedita at? Asperiores nemo possimus nesciunt dicta veniam
-              aspernatur quam mollitia.
+            Whether you are looking for houses, flats, offices or buildings for sale or for rent, we offer you free-of-charge accompanied viewing of properties you choose through our state-of-the-art website. With our team of experienced and dedicated real estate agents, we at Real Ethio offer highly professional and personalized assistance in finding you the right home in Ethiopia.
             </p>
 
-            <button className="self-center w-auto px-8 mr-16 border-0  text-lg btn hover:bg-secondary bg-primary text-white font-medium">
-              Browse Now
-            </button>
+            <Link to='/search' className="self-center w-auto px-8 mr-4 border-0 text-white text-lg btn hover:bg-secondary bg-primary hover:text-white">
+            Get started
+          </Link>
           </div>
           <div className="md:5/12 lg:w-1/2">
             <img

@@ -14,9 +14,8 @@ export default function About() {
 ሁሉም እኛ ጋር አለ::
             </h2>
             <p className="my-8 text-gray-600">
-              Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-              expedita at? Asperiores nemo possimus nesciunt dicta veniam
-              aspernatur quam mollitia.
+           
+            Serving Ethiopian home buyers to ease their hunting burden in finding a perfect place they are proud to call home.
             </p>
 
             <Link to="/search" className="self-center w-auto px-8 mr-16 border-0 text-white text-lg btn hover:bg-secondary bg-primary hover:text-white">
@@ -24,7 +23,7 @@ export default function About() {
             </Link>
           </div>
           <div className="md:5/12 lg:w-1/2">
-            <img src={tempPic} alt="image" loading="lazy" width="" height="" />
+            <img src={tempPic} alt="image" loading="lazy" width="" height=""  className="rounded-2xl hover:-translate-y-12 transition-all ease-in-out duration-500" />
           </div>
         </div>
       </section>
@@ -119,10 +118,7 @@ export default function About() {
               </span>
               The developer
             </h2>
-            <p className="text-base text-body-color md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
-            </p>
+           
           </div>
 
           <div className="flex gap-2 justify-center -mx-4">
